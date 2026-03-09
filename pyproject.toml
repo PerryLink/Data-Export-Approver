@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "data-export-approver"
+version = "0.1.0"
+description = "Enforce approval workflows for pandas data exports"
+authors = ["Chance Dean <novelnexusai@outlook.com>"]
+readme = "README.md"
+packages = [{include = "data_export_approver", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.3.0"
+rich = "^13.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0.0"
+pytest-cov = "^4.0.0"
+
+[tool.poetry.scripts]
+data-export-approver = "data_export_approver.__main__:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
