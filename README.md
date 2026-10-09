@@ -23,13 +23,15 @@
 ### Installation
 
 ```bash
-pip install data-export-approver
+pip install "git+https://github.com/PerryLink/Data-Export-Approver.git"
+# (installs from source; not yet on PyPI)
 ```
 
 Or with Poetry:
 
 ```bash
-poetry add data-export-approver
+poetry add git+https://github.com/PerryLink/Data-Export-Approver.git
+# (installs from source; not yet on PyPI)
 ```
 
 ### Basic Usage
@@ -209,13 +211,15 @@ Copyright 2026 Chance Dean — novelnexusai@outlook.com
 #### 安装
 
 ```bash
-pip install data-export-approver
+pip install "git+https://github.com/PerryLink/Data-Export-Approver.git"
+# （PyPI 未发布，源码直装）
 ```
 
 或使用 Poetry：
 
 ```bash
-poetry add data-export-approver
+poetry add git+https://github.com/PerryLink/Data-Export-Approver.git
+# （PyPI 未发布，源码直装）
 ```
 
 #### 基本使用
